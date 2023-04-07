@@ -1,0 +1,123 @@
+.navbar {
+  box-shadow: 0.5px 0.5px 10px rgb(123, 122, 122);
+}
+.navbar-name {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  font-weight: 900;
+  margin-left: 12% !important;
+}
+.navbar-name-segment {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  color: #ff185a;
+  font-weight: 900;
+  margin: 0%;
+}
+.name {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  color: #ff2966;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar .nav-link:hover {
+  color: #fd3a71;
+  font-weight: 600;
+}
+
+/******************************************Home*********************************/
+.bg {
+  max-width: 100%;
+}
+.bg-img {
+  position: absolute;
+  z-index: -1;
+}
+.title-div {
+  position: relative;
+  z-index: 1;
+}
+.title {
+  font-family: "Titillium Web", sans-serif;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 900;
+  text-align: center;
+  padding: 20% 0%;
+}
+
+/*****************************content**************************************/
+
+.registration{
+    margin: 2% auto;
+    padding: 3%;
+    width: 90%;
+    border: 2px solid #fd3a71 ;
+}
+
+
+.heading {
+  font-family: "Titillium Web", sans-serif;
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+/*****************************footer**************************************/
+
+footer {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: #fdd2d4;
+}
+.cpy {
+  margin-top: 15%;
+  color: #000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.social-icon {
+  color: #000;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 50%;
+}
+.social-icon:hover {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.2);
+}
+td:hover {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transform: rotate(360deg);
+}
+
+td {
+  padding: 1em;
+  background-color: none;
+}
+
+#Home,
+#about,
+#skills,
+#projects {
+  margin-bottom: 10%;
+}
